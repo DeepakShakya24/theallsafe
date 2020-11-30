@@ -1,0 +1,31 @@
+.TopHeader {
+    text-align: center;
+    background-color: #346A9F;
+    color: #FFF;
+    padding: 0.1px;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa {
+    color: #346A9F;
+    font-size: 22px;
+}
+
+.NavigationItems {
+    display: flex;
+    justify-content: space-between;
+}

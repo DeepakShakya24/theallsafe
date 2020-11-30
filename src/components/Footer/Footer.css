@@ -1,0 +1,38 @@
+footer {
+    border-radius: 20px;
+    background: rgba(235, 245, 255, 1);
+}
+
+.f_box {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.f_box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.f_box p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.f_box ul li {
+    padding-bottom: 5px;
+}
+
+.f_box ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.visa_card {
+    padding: 20px;
+}
+
+.cards {
+    width: 100%;
+}

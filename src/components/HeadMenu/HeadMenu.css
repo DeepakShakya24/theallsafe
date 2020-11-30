@@ -1,0 +1,26 @@
+.head_menu ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 10px 0;
+}
+
+.head_menu ul li {
+    padding: 0 20px;
+    border-left: 1px solid black;
+}
+
+.head_menu ul li:last-child {
+    border-right: 1px solid black;
+}
+
+.head_menu ul li a {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.head_menu ul .active {
+    border-bottom: 2px solid #f8c73d;
+}

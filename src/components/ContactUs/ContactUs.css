@@ -1,0 +1,95 @@
+.conatct_row {
+    width: 96%;
+    margin: 0 auto;
+    background: rgba(244, 245, 249, 1);
+    border-radius: 10px;
+}
+
+.social_box {
+    width: 100%;
+    background: url(./res/bg.JPG);
+    padding: 30px;
+    background-size: cover;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.social_box img {
+    width: 50px;
+    margin-top: 50px;
+    height: 50px;
+    margin-bottom: 160px;
+}
+
+.social_box h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.social_box p {
+    padding-top: 20px;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.social_box span {
+    color: lavender;
+}
+
+.social_box span a {
+    color: lavender;
+}
+
+.social_box span:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.hcontact-sec form {
+    padding: 15px 50px 15px 20px;
+}
+
+.hcontact-sec form label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.hcontact-sec form input {
+    background: rgba(237, 238, 242, 1);
+    border-radius: 10px;
+    border: none;
+}
+
+.hcontact-sec form textarea {
+    background: rgba(237, 238, 242, 1);
+    border-radius: 10px;
+    border: none;
+}
+
+.hcontact-sec form input::placeholder {
+    font-style: italic;
+    color: black;
+}
+
+.hcontact-sec form textarea::placeholder {
+    font-style: italic;
+    color: black;
+}
+
+.btn-sub {
+    border: 2px solid #366ba1;
+    background: #366ba1;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+
+.btn-sub:hover {
+    border: 2px solid #366ba1;
+    background: transparent;
+    color: #366ba1;
+}
