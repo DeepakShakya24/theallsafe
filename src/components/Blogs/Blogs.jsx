@@ -13,7 +13,7 @@ function Blogs() {
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img class="card-img-top" src={b1} />
+              <img alt="" class="card-img-top" src={b1} />
               <div class="card-body">
                 <h5 class="card-title">Front to Back</h5>
                 <p class="card-text">
@@ -21,7 +21,7 @@ function Blogs() {
                   “back-end” means the server, application and database that
                   work behind the
                 </p>
-                <a href="#" class="btn p-0">
+                <a href="#!" class="btn p-0">
                   Read more...
                 </a>
               </div>
@@ -29,7 +29,7 @@ function Blogs() {
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img class="card-img-top" src={b2} />
+              <img alt="" class="card-img-top" src={b2} />
               <div class="card-body">
                 <h5 class="card-title">Android Devlopment</h5>
                 <p class="card-text">
@@ -37,7 +37,7 @@ function Blogs() {
                   “back-end” means the server, application and database that
                   work behind the
                 </p>
-                <a href="#" class="btn p-0">
+                <a href="#!" class="btn p-0">
                   Read more...
                 </a>
               </div>
@@ -45,7 +45,7 @@ function Blogs() {
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img class="card-img-top" src={b3} />
+              <img alt="" class="card-img-top" src={b3} />
               <div class="card-body">
                 <h5 class="card-title">iOS Development</h5>
                 <p class="card-text">
@@ -53,7 +53,7 @@ function Blogs() {
                   “back-end” means the server, application and database that
                   work behind the
                 </p>
-                <a href="#" class="btn p-0">
+                <a href="#!" class="btn p-0">
                   Read more...
                 </a>
               </div>
