@@ -82,21 +82,38 @@ const BlockMenu = () => {
         <section class="head-2">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-2 ">
+              <div class="col-md-3 ">
                 <a href="!#" class="logo">
                   <img alt="" src={Logo} class="img-fluid" />
                 </a>
               </div>
-              <div class="col-md-2 "></div>
-              <div class="col-md-3 ">
-                <div class="form-group has-search">
+
+              <div class="col-md-4">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search"
+                    name="search"
+                  />
+                  <div class="input-group-btn">
+                    <button
+                      class="btn btn-primary"
+                      style={{ backgroundColor: "#346a9f", border: "none" }}
+                      type="submit"
+                    >
+                      <i class="fa fa-search" arial-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+                {/* <div class="form-group has-search">
                   <span class="fa fa-search form-control-feedback"></span>
                   <input
                     type="text"
                     class="form-control"
                     placeholder="Search"
                   />
-                </div>
+                </div> */}
               </div>
               <div class="col-md-5">
                 <div class="logo_menu">
