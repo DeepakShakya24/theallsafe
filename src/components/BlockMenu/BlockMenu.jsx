@@ -160,7 +160,8 @@ const BlockMenu = () => {
                     aria-expanded="false"
                   >
                     <img alt="" src={Business} class="img-fluid" />
-                    Business Solution
+                    Business <br />
+                    Solution
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a class="dropdown-item" href="!#">
@@ -249,7 +250,8 @@ const BlockMenu = () => {
                     aria-expanded="false"
                   >
                     <img alt="" src={icon5} class="img-fluid" />
-                    Human Resource
+                    Human <br />
+                    Resource
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a class="dropdown-item" href="!#">
@@ -293,7 +295,8 @@ const BlockMenu = () => {
                     aria-expanded="false"
                   >
                     <img alt="" src={icon7} class="img-fluid" />
-                    Online Reservation
+                    Online <br />
+                    Reservation
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a class="dropdown-item" href="!#">
@@ -315,7 +318,8 @@ const BlockMenu = () => {
                     aria-expanded="false"
                   >
                     <img alt="" src={icon8} class="img-fluid" />
-                    Hotel & Resturant
+                    Hotel & <br />
+                    Resturant
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a class="dropdown-item" href="!#">
