@@ -31,6 +31,9 @@ const BlockMenu = () => {
                 </p>
               </div>
             </div>
+            <button type="submit">
+              <span>&times;</span>
+            </button>
           </div>
         </section>
         <section class="head-3">
