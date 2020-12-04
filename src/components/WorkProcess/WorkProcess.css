@@ -1,0 +1,137 @@
+.process-inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -24px;
+}
+
+.work-process {
+    position: relative;
+    margin-top: 40px;
+}
+
+.headingmain {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.headingmain {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.work-process {
+    position: relative;
+    margin-top: 40px
+}
+
+.process-inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -24px
+}
+
+.process-inner .work-pro-content {
+    width: 40%;
+    text-align: right
+}
+
+.process-inner .work-pro-content h4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+.process-inner .work-pro-content p {
+    font-size: 15px;
+    line-height: 27px;
+    color: var(--gray-dark-color)
+}
+
+.process-inner .pro-number {
+    width: 15%;
+    text-align: center
+}
+
+.num-circle {
+    width: 100px;
+    height: 100px;
+    background: var(--main-green-color);
+    background-color: #346A9F;
+    border-radius: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto
+}
+
+.num-circle h4 {
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0
+}
+
+.num-circle:before {
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    content: "";
+    height: 128px;
+    width: 70px;
+    background: var(--main-green-color);
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    left: -16px
+}
+
+.blue {
+    background: var(--main-blue-color)
+}
+
+.blue:before {
+    background: var(--main-blue-color);
+    right: -16px;
+    left: auto;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0
+}
+
+.process-inner .pro-imgbox {
+    width: 40%
+}
+
+.process-inner:nth-child(even) {
+    flex-direction: row-reverse
+}
+
+.process-inner:nth-child(even) .work-pro-content {
+    text-align: left
+}
+
+.process-inner:nth-child(even) .pro-imgbox {
+    text-align: right
+}

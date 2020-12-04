@@ -25,6 +25,8 @@ import Blogs from "./components/Blogs/Blogs";
 import ContactUs from "./components/ContactUs/ContactUs";
 import SafetyBanner from "./components/SafetyBanner/SafetyBanner";
 import OurCollab from "./components/OurCollab/OurCollab";
+import WorkProcess from "./components/WorkProcess/WorkProcess";
+import OurOfferings from "./components/OurOfferings/OurOfferings";
 
 function App() {
   return (
@@ -52,6 +54,8 @@ function App() {
       <GridSoftwareVisibility />
       <FullScreenSlider />
       <OurVision />
+      <OurOfferings />
+      <WorkProcess />
       <AwesomeBuilds />
       <Blogs />
       <ContactUs />
