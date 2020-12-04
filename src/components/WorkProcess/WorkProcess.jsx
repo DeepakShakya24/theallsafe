@@ -7,7 +7,7 @@ import support from "./res/support.png";
 import "./WorkProcess.css";
 function WorkProcess() {
   return (
-    <div className="container">
+    <div className="offerings">
       <div class="headingmain">
         <h1>Work Process</h1>
         <p class="container">

@@ -135,3 +135,8 @@
 .process-inner:nth-child(even) .pro-imgbox {
     text-align: right
 }
+
+.offerings {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}

@@ -1,12 +1,12 @@
 .conatct_row {
-    width: 96%;
+    width: auto;
     margin: 0 auto;
     background: rgba(244, 245, 249, 1);
     border-radius: 10px;
 }
 
 .social_box {
-    width: 100%;
+    width: auto;
     background: url(./res/bg.JPG);
     padding: 30px;
     background-size: cover;
@@ -92,4 +92,9 @@
     border: 2px solid #366ba1;
     background: transparent;
     color: #366ba1;
+}
+
+.hcontact-sec {
+    margin-left: 50px;
+    margin-right: 50px;
 }

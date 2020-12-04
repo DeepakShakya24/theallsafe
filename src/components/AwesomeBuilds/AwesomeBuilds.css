@@ -3,7 +3,7 @@
 }
 
 .builds-box {
-    width: 96%;
+    width: auto;
     margin: 0 auto;
     background: rgba(244, 245, 249, 1);
     border-radius: 10px;
@@ -20,4 +20,9 @@
 .btn-exp:hover {
     background: transparent;
     color: rgba(52, 106, 160, 1);
+}
+
+.builds-sec {
+    margin-left: 50px;
+    margin-right: 50px;
 }
