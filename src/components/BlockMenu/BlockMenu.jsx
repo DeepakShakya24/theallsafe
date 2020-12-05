@@ -20,7 +20,36 @@ const BlockMenu = () => {
   return (
     <div>
       <header>
-        <section class=" head-1">
+        <div
+          class="alert alert-dismissible fade show"
+          role="alert"
+          style={{ backgroundColor: "#346A9F", textAlign: "center" }}
+        >
+          <p>
+            {" "}
+            <img alt="" src={icon} width="30px" />
+            Free Setup Between 6-12 Hours* | Sale Me Lo Khush Raho
+          </p>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="alert"
+            aria-label="Close"
+          >
+            <span aria-hidden="true" style={{ fontSize: "200%" }}>
+              &times;
+            </span>
+          </button>
+        </div>
+        {/* <section class="head-1 alert alert-dismissible fade show">
+          <button
+            type="button"
+            class="close btn-group-lg"
+            data-dismiss="alert"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
           <div class="container">
             <div class="row">
               <div class="col-md-12 text-center">
@@ -31,11 +60,8 @@ const BlockMenu = () => {
                 </p>
               </div>
             </div>
-            <button type="submit">
-              <span>&times;</span>
-            </button>
           </div>
-        </section>
+        </section> */}
         <section class="head-3">
           <div class="container-fluid">
             <div class="row">
