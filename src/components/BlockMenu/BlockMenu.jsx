@@ -36,8 +36,9 @@ const BlockMenu = () => {
             class="close"
             data-dismiss="alert"
             aria-label="Close"
+            style={{ borderRadius: "50%" }}
           >
-            <span aria-hidden="true" style={{ fontSize: "200%" }}>
+            <span aria-hidden="true" className="closebtn">
               &times;
             </span>
           </button>
@@ -75,7 +76,7 @@ const BlockMenu = () => {
               </div>
 
               <div class="col-md-3">
-                <div class="input-group">
+                {/* <div class="input-group">
                   <input
                     type="text"
                     class="form-control"
@@ -97,15 +98,15 @@ const BlockMenu = () => {
                       <i class="fa fa-search" arial-hidden="true"></i>
                     </button>
                   </div>
-                </div>
-                {/* <div class="form-group has-search">
+                </div> */}
+                <div class="form-group has-search">
                   <span class="fa fa-search form-control-feedback"></span>
                   <input
                     type="text"
                     class="form-control"
                     placeholder="Search"
                   />
-                </div> */}
+                </div>
               </div>
               <div class="col-md-5">
                 <div class="logo_menu">
