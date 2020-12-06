@@ -10,12 +10,13 @@ function Footer() {
         <div className="container-fluid">
           <div className="row">
             <div className="f_box">
-              <p>Best Selling</p>
+              <p>
+                <strong>Best Selling</strong>
+              </p>
               <ul>
                 <li>
                   <a href="!#">E-Commerce</a>
                 </li>
-
                 <li>
                   <a href="!#">Grocery Store</a>
                 </li>
@@ -30,7 +31,9 @@ function Footer() {
               </ul>
             </div>
             <div className="f_box">
-              <p>Support</p>
+              <p>
+                <strong>Support</strong>
+              </p>
               <ul>
                 <li>
                   <a href="!#">About Us</a>
@@ -50,7 +53,9 @@ function Footer() {
               </ul>
             </div>
             <div className="f_box">
-              <p>The All Safe</p>
+              <p>
+                <strong>The All Safe</strong>
+              </p>
               <ul>
                 <li>
                   <a href="!#">Blog</a>
@@ -70,7 +75,9 @@ function Footer() {
               </ul>
             </div>
             <div className="f_box">
-              <p>Services</p>
+              <p>
+                <strong>Services</strong>
+              </p>
               <ul>
                 <li>
                   <a href="!#">Web Development</a>
@@ -94,7 +101,9 @@ function Footer() {
               </ul>
             </div>
             <div className="f_box">
-              <p>Connect</p>
+              <p>
+                <strong>Connect</strong>
+              </p>
               <ul>
                 <li>
                   <a href="!#">Client Login Page</a>

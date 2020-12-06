@@ -9,7 +9,7 @@ function OurCollab() {
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="text-center font-weight-bold">Our Collaborators</h2>
+            <h2 class="text-center font-weight-bold">OUR COLLABORATORS</h2>
           </div>
           <Carousel>
             <Carousel.Item>

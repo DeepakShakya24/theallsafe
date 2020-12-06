@@ -9,7 +9,7 @@ function WorkProcess() {
   return (
     <div className="offerings">
       <div class="headingmain">
-        <h1>Work Process</h1>
+        <h1>WORK PROCESS</h1>
         <p class="container">
           We follow a flexible agile development methodology. This helps us to
           produce bespoke software, optimise the project features, and deliver a

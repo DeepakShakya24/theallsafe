@@ -15,7 +15,9 @@ function Blogs() {
             <div class="card">
               <img alt="" class="card-img-top" src={b1} />
               <div class="card-body">
-                <h5 class="card-title">Front to Back</h5>
+                <h5 class="card-title">
+                  <strong>Front to Back</strong>
+                </h5>
                 <p class="card-text">
                   The term “front-end” refers to the user interface, while
                   “back-end” means the server, application and database that

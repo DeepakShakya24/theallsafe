@@ -16,7 +16,7 @@ export default function OurVision() {
   return (
     <section>
       <div class="headingmain">
-        <h1>Why theAllsafe</h1>
+        <h1>WHY theAllsafe ?</h1>
       </div>
       <div class="about-home">
         <div class="container">

@@ -96,7 +96,7 @@ const BlockMenu = () => {
               </div>
               <div class="col-md-3">
                 <ul>
-                  <li class="com-abt ">
+                  <li class="com-abt" style={{ float: "right" }}>
                     <a href="!#">About Us</a>
                   </li>
                   <li class="com-info">

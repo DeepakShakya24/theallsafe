@@ -11,7 +11,7 @@ function OurOfferings() {
     <section class="service-home jumbotron">
       <div class="container">
         <div class="container heading">
-          <h1>Our Offerings</h1>
+          <h1>OUR OFFERINGS</h1>
           <p>
             We believe in providing smart and innovative mobile and web
             solutions that will help businesses to solve the problems of their

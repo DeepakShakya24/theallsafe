@@ -18,7 +18,7 @@ export default function AwesomeBuilds() {
                 <a href="!#">SELF BUILD</a>
               </li>
               <li>
-                <a href="!#">ON TREANDING</a>
+                <a href="!#">ON TRENDING</a>
               </li>
             </ul>
           </div>
