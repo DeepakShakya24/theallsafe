@@ -55,6 +55,7 @@
 .hcontact-sec form label {
     font-weight: bold;
     font-size: 17px;
+    margin-top: 1rem;
 }
 
 .hcontact-sec form input {

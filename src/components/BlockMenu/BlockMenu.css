@@ -42,12 +42,16 @@ header .head-3 ul li a .fa {
 
 header .head-3 ul li a {
     color: black;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 header .head-3 ul li a:hover {
     text-decoration: none;
     color: red;
+}
+
+.close {
+    width: 80;
 }
 
 .com-abt a {
@@ -179,7 +183,8 @@ header .dropdown-menu {
 .logo_menu ul li a {
     text-decoration: none;
     color: black;
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .logo_menu ul li a:hover {

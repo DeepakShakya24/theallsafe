@@ -25,7 +25,28 @@ li a {
     font-size: 22px;
 }
 
+.header-part {
+    margin-top: 10px;
+}
+
 .NavigationItems {
     display: flex;
     justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -24px;
+}
+
+.NavigationItems ul li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.rightNav {
+    padding-right: 25px;
 }

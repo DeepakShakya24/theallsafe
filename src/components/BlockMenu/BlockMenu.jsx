@@ -16,7 +16,8 @@ import icon7 from "./icon/Online Reservation.png";
 import icon8 from "./icon/Hotel and Resturant.png";
 import icon9 from "./icon/OTT Platform.png";
 import icon10 from "./icon/Others.png";
-import contact from "./icon/Contact Us.png";
+// import contact from "./icon/Contact Us.png";
+import TopHeader from "../TopHeader/TopHeader";
 const BlockMenu = () => {
   return (
     <div>
@@ -27,7 +28,6 @@ const BlockMenu = () => {
           style={{ backgroundColor: "#346A9F", textAlign: "center" }}
         >
           <p>
-            {" "}
             <img alt="" src={icon} width="30px" />
             Free Setup Between 6-12 Hours* | Sale Me Lo Khush Raho
           </p>
@@ -63,59 +63,8 @@ const BlockMenu = () => {
             </div>
           </div>
         </section> */}
-        <section class="head-3">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-9">
-                <ul style={{ float: "left" }}>
-                  <li>
-                    <a
-                      href="
-                    !#"
-                    >
-                      <i class="fa fa-truck"></i> Free, Setup Delivery *
-                    </a>
-                  </li>
-                  <li>
-                    <a href="!#">
-                      <i class="fa fa-recycle"></i> Free Branding Setup on
-                      Rental*
-                    </a>
-                  </li>
-                  <li>
-                    <a href="!#">
-                      <i class="fa fa-certificate"></i> Best Price Guarantee
-                    </a>
-                  </li>
-                  <li>
-                    <a href="!#">
-                      <i class="fa fa-phone-square"></i> 12/7 Business Support
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-3">
-                <ul>
-                  <li class="com-abt" style={{ float: "right" }}>
-                    <a href="!#">About Us</a>
-                  </li>
-                  <li class="com-info">
-                    <a href="!#">
-                      <img
-                        src={contact}
-                        alt=""
-                        className="img-fluid"
-                        width="20"
-                        height="20"
-                      />{" "}
-                      Contact Us
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+        <TopHeader />
+
         <section class="head-2">
           <div class="container-fluid">
             <div class="row">
