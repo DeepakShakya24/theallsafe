@@ -92,9 +92,10 @@
 
 .pro_box .pro_heading h3 {
     font-size: 19px;
+    /* font-weight: bold; */
     color: rgba(255, 255, 255, 1);
     margin: 0;
-    padding: 8px 0px 15px 8px;
+    padding: 8px 0px 15px 16px;
 }
 
 .pro_add img {

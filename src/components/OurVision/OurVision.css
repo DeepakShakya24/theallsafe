@@ -109,7 +109,12 @@
 }
 
 .about-home-img {
-    width: 100%;
+    width: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
 }
 
 .about-point-box:hover span {
