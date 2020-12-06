@@ -12,7 +12,7 @@ function OurOfferings() {
       <div class="container">
         <div class="container heading">
           <h1>OUR OFFERINGS</h1>
-          <p>
+          <p style={{ marginBottom: "3rem" }}>
             We believe in providing smart and innovative mobile and web
             solutions that will help businesses to solve the problems of their
             customers. We not only build the software, but we strategically

@@ -38,7 +38,9 @@ function ContactUs() {
             <div>
               <form class="row">
                 <div class="form-group col-md-12">
-                  <label for="fullname">Full Name</label>
+                  <label for="fullname" style={{ marginTop: "1rem" }}>
+                    Full Name
+                  </label>
                   <input
                     type="text"
                     class="form-control"
