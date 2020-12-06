@@ -112,11 +112,6 @@
     width: 100%;
 }
 
-img {
-    vertical-align: middle;
-    border-style: none;
-}
-
 .about-point-box:hover span {
     display: none;
 }
