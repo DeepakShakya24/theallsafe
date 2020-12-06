@@ -25,7 +25,11 @@ const BlockMenu = () => {
         <div
           class="alert alert-dismissible fade show"
           role="alert"
-          style={{ backgroundColor: "#346A9F", textAlign: "center" }}
+          style={{
+            backgroundColor: "#346A9F",
+            textAlign: "center",
+            borderRadius: "0",
+          }}
         >
           <p>
             <img alt="" src={icon} width="30px" />
@@ -76,29 +80,6 @@ const BlockMenu = () => {
               </div>
 
               <div class="col-md-3">
-                {/* <div class="input-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Search"
-                    name="search"
-                    style={{
-                      borderRadius: "0.9em",
-                    }}
-                  />
-                  <div class="input-group-btn">
-                    <button
-                      class="btn btn-primary"
-                      style={{
-                        backgroundColor: "#346a9f",
-                        border: "none",
-                      }}
-                      type="submit"
-                    >
-                      <i class="fa fa-search" arial-hidden="true"></i>
-                    </button>
-                  </div>
-                </div> */}
                 <div class="form-group has-search">
                   <span class="fa fa-search form-control-feedback"></span>
                   <input

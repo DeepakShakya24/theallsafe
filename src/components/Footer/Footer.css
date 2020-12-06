@@ -27,6 +27,7 @@ footer {
 .f_box ul li a {
     text-decoration: none;
     color: black;
+    display: block;
 }
 
 .visa_card {
