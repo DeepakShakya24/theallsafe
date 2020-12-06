@@ -1,6 +1,6 @@
 import React from "react";
 import "./BlockMenu.css";
-import Logo from "./icon/Logo theAllsafe 70px.png";
+import Logo from "./icon/websitelogo.png";
 import icon from "./icon/Free Setup Dilevery Sale Me Lo Khush Raho.png";
 import Business from "./icon/Business Solution.png";
 import oneview from "./icon/One View.png";
@@ -16,6 +16,7 @@ import icon7 from "./icon/Online Reservation.png";
 import icon8 from "./icon/Hotel and Resturant.png";
 import icon9 from "./icon/OTT Platform.png";
 import icon10 from "./icon/Others.png";
+import contact from "./icon/Contact Us.png";
 const BlockMenu = () => {
   return (
     <div>
@@ -100,7 +101,14 @@ const BlockMenu = () => {
                   </li>
                   <li class="com-info">
                     <a href="!#">
-                      <i class="fa fa-volume-control-phone"></i> Contact Us
+                      <img
+                        src={contact}
+                        alt=""
+                        className="img-fluid"
+                        width="20"
+                        height="20"
+                      />{" "}
+                      Contact Us
                     </a>
                   </li>
                 </ul>
@@ -111,24 +119,30 @@ const BlockMenu = () => {
         <section class="head-2">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-3 ">
-                <a href="!#" class="logo">
-                  <img alt="" src={Logo} class="img-fluid" />
+              <div class="col-md-4 ">
+                <a href="!#">
+                  <img alt="" src={Logo} width="200" />
                 </a>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-3">
                 <div class="input-group">
                   <input
                     type="text"
                     class="form-control"
                     placeholder="Search"
                     name="search"
+                    style={{
+                      borderRadius: "0.9em",
+                    }}
                   />
                   <div class="input-group-btn">
                     <button
                       class="btn btn-primary"
-                      style={{ backgroundColor: "#346a9f", border: "none" }}
+                      style={{
+                        backgroundColor: "#346a9f",
+                        border: "none",
+                      }}
                       type="submit"
                     >
                       <i class="fa fa-search" arial-hidden="true"></i>
@@ -150,18 +164,27 @@ const BlockMenu = () => {
                     <li>
                       <a href="!#">
                         <img alt="" src={oneview} />
-                        Mega Menu
+                        Oneview
                       </a>
                     </li>
                     <li>
                       <a href="!#">
-                        <img alt="" src={ssl} style={{ width: "80px" }} />
+                        <img
+                          alt=""
+                          src={ssl}
+                          style={{
+                            width: "80px",
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        />
                       </a>
                     </li>
                     <li>
                       <a href="!#">
                         <img alt="" src={cart} />
-                        cart
+                        Cart
                       </a>
                     </li>
                     <li>

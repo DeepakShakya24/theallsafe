@@ -80,6 +80,10 @@
     box-shadow: 0 0 20px rgba(101, 110, 95, 0.3)
 }
 
+.home-about-point:hover {
+    box-shadow: #346A9F
+}
+
 .about-point-box .content {
     width: 100%;
     position: absolute;
