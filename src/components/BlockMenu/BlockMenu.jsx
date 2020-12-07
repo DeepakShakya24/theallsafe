@@ -31,8 +31,13 @@ const BlockMenu = () => {
             borderRadius: "0",
           }}
         >
-          <p>
-            <img alt="" src={icon} width="30px" />
+          <p style={{ fontSize: "14px" }}>
+            <img
+              alt=""
+              src={icon}
+              width="30px"
+              style={{ marginRight: "24px" }}
+            />
             Free Setup Between 6-12 Hours* | Sale Me Lo Khush Raho
           </p>
           <button
@@ -354,7 +359,7 @@ const BlockMenu = () => {
                 </li>
 
                 <li class="nav-item dropdown">
-                  <span class="new-info">new</span>
+                  <span class="new-info">New</span>
                   <a
                     class="nav-link dropdown-toggle"
                     href="!#"

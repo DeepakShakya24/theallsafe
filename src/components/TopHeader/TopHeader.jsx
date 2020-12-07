@@ -51,6 +51,7 @@ function TopHeader() {
                   className="img-fluid"
                   width="20"
                   height="20"
+                  style={{ marginRight: "10px" }}
                 />
                 Contact Us
               </a>
