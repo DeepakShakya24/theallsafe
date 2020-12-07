@@ -31,7 +31,7 @@ const BlockMenu = () => {
             borderRadius: "0",
           }}
         >
-          <p style={{ fontSize: "14px" }}>
+          <p style={{ fontSize: "14px", fontWeight: "300" }}>
             <img
               alt=""
               src={icon}
