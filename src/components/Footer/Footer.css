@@ -22,6 +22,9 @@ footer {
 
 .f_box ul li {
     padding-bottom: 5px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .f_box ul li a {
@@ -32,4 +35,8 @@ footer {
 
 .visa_card {
     padding: 20px;
+}
+
+p {
+    font-weight: 600;
 }
