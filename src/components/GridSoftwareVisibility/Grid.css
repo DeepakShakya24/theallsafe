@@ -111,9 +111,24 @@
         box-shadow: rgba(254, 135, 60, 0.5) 1px 1px 5px;
     }
     
+    .img-space .subtxt {
+        color: #575563;
+        font-weight: 80;
+        margin: 4px 0 0;
+    }
+    
     .img-space p {
         display: block;
         margin: 4px 0 0;
+        color: orange
+    }
+    
+    .img-space:hover p {
+        color: white;
+    }
+    
+    .img-space:hover .subtxt {
+        color: white;
     }
     
     .img-space:hover {
@@ -126,6 +141,10 @@
     
     .pro_add img:first-child {
         margin-top: 0px;
+    }
+    
+    .pro_add {
+        margin-top: -23px;
     }
     
     .btn-v_pro {

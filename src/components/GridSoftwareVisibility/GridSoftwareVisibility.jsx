@@ -10,7 +10,7 @@ import p6 from "./product/p6.JPG";
 import p7 from "./product/p7.JPG";
 import p8 from "./product/p8.JPG";
 import p9 from "./product/p9.JPG";
-import fire from "./product/fire.jpeg";
+import fire from "./product/homepage-hot-offers.svg";
 import sideimg1 from "./product/add/1.JPG";
 import sideimg2 from "./product/add/2.JPG";
 import sideimg3 from "./product/add/3.JPG";
@@ -924,11 +924,11 @@ const GridSoftwareVisibility = ({ srcimg1, srcimg2, srcimg3 }) => {
           <div class="col-md-2 pro_add">
             <div className="img-space">
               {/* <i className="fa fa-fire fa-3x"></i> */}
-              <img src={fire} class="img-fluid" alt="" />
+              <img src={fire} class="img-fluid" alt="" width="35%" />
               <p>Hot Offers</p>
-              <p>Check out our weekly hot deals</p>
+              <p className="subtxt">Check out our weekly hot deals</p>
             </div>
-            <img src={sideimg1} class="img-fluid" alt="" />
+
             <img src={sideimg2} class="img-fluid" alt="" />
             <img src={sideimg3} class="img-fluid" alt="" />
           </div>
