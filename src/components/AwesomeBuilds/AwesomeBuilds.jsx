@@ -6,7 +6,7 @@ export default function AwesomeBuilds() {
     <section class="builds-sec ">
       <div class="container-fluid ">
         <div class="row builds-box">
-          <div class="col-md-12 head_menu text-center">
+          <div class="col-md-12 head_menu text-center build-heading">
             <h2 class="font-weight-bold">AWESOME BUILDS</h2>
             <ul>
               <li>

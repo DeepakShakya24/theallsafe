@@ -9,7 +9,9 @@ function Blogs() {
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="text-center font-weight-bold">OUR BLOGS</h2>
+            <h2 class="text-center font-weight-bold blogs-heading">
+              OUR BLOGS
+            </h2>
           </div>
           <div class="col-md-4">
             <div class="card">

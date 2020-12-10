@@ -14,9 +14,9 @@ import "./OurVision.css";
 
 export default function OurVision() {
   return (
-    <section>
+    <section className="myvision">
       <div class="headingmain">
-        <h1>WHY theAllsafe ?</h1>
+        <h2>WHY theAllsafe ?</h2>
       </div>
       <div class="about-home">
         <div class="container">

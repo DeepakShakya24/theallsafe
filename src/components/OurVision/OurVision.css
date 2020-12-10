@@ -17,6 +17,10 @@
     padding-top: 20px;
 } */
 
+.myvision {
+    padding-bottom: 55px;
+}
+
 .headingmain {
     width: 100%;
     position: relative;
@@ -62,7 +66,8 @@
     align-items: center;
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(38, 171, 226, .3);
+    border: 1px solid #b7b7b7cc;
+    /* box-shadow: 0 0 20px rgba(38, 171, 226, .3); */
     margin-bottom: 40px;
     transition: .3s all ease;
     background: var(--white-color);
@@ -72,6 +77,11 @@
 
 * {
     box-sizing: border-box;
+}
+
+.about-point-box:hover {
+    box-shadow: 0 0 20px #346A9F;
+    transition: .3s all ease
 }
 
 .about-point-box:hover img {
@@ -131,4 +141,12 @@
 
 .vision {
     padding: 50px;
+}
+
+.headingmain h2 {
+    letter-spacing: 6px;
+    text-shadow: 0 2px 8px rgba(38, 171, 226, .9);
+    color: var(--black-color);
+    font-size: 50px;
+    font-weight: 800;
 }

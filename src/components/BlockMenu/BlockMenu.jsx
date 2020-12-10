@@ -23,7 +23,7 @@ const BlockMenu = () => {
     <div>
       <header>
         <div
-          class="alert alert-dismissible fade show"
+          class="alert  alert-dismissible fade show"
           role="alert"
           style={{
             backgroundColor: "#346A9F",
@@ -52,6 +52,7 @@ const BlockMenu = () => {
             </span>
           </button>
         </div>
+
         {/* <section class="head-1 alert alert-dismissible fade show">
           <button
             type="button"
@@ -73,6 +74,7 @@ const BlockMenu = () => {
             </div>
           </div>
         </section> */}
+
         <TopHeader />
 
         <section class="head-2">

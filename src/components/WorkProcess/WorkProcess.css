@@ -38,6 +38,14 @@
     text-align: center;
 }
 
+.headingmain h1 {
+    letter-spacing: 6px;
+    text-shadow: 0 2px 8px rgba(38, 171, 226, .9);
+    color: var(--black-color);
+    font-size: 50px;
+    font-weight: 800;
+}
+
 .work-process {
     position: relative;
     margin-top: 40px

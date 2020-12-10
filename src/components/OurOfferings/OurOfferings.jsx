@@ -8,11 +8,11 @@ import uiux from "./res/uiux.png";
 import webdev from "./res/web-development.png";
 function OurOfferings() {
   return (
-    <section class="service-home jumbotron">
+    <section class="service-home">
       <div class="container">
         <div class="container heading">
-          <h1>OUR OFFERINGS</h1>
-          <p style={{ marginBottom: "3rem" }}>
+          <h2>OUR OFFERINGS</h2>
+          <p style={{ marginBottom: "3rem", textAlign: "center" }}>
             We believe in providing smart and innovative mobile and web
             solutions that will help businesses to solve the problems of their
             customers. We not only build the software, but we strategically
