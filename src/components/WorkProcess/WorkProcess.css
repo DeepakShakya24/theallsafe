@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+.headingmain p {
+    font-weight: 300;
+}
+
 .row {
     display: -webkit-box;
     display: -ms-flexbox;
