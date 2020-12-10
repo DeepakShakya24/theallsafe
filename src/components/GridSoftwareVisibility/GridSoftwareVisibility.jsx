@@ -924,9 +924,11 @@ const GridSoftwareVisibility = ({ srcimg1, srcimg2, srcimg3 }) => {
           <div class="col-md-2 pro_add">
             <div className="img-space">
               {/* <i className="fa fa-fire fa-3x"></i> */}
-              <img src={fire} class="img-fluid" alt="" width="35%" />
+              <img src={fire} class="img-fluid" alt="" width="25%" />
               <p>Hot Offers</p>
-              <p className="subtxt">Check out our weekly hot deals</p>
+              <div align="centre">
+                <p className="subtxt">Check out our weekly hot deals</p>
+              </div>
             </div>
 
             <img src={sideimg2} class="img-fluid" alt="" />
