@@ -35,3 +35,11 @@
     height: 150px;
     border-radius: 8px;
 }
+
+.collab-heading {
+    letter-spacing: 6px;
+    text-shadow: 0 2px 8px rgba(38, 171, 226, .9);
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+}

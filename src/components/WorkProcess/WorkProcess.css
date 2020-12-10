@@ -45,7 +45,7 @@
 .headingmain h1 {
     letter-spacing: 6px;
     text-shadow: 0 2px 8px rgba(38, 171, 226, .9);
-    color: var(--black-color);
+    color: black;
     font-size: 50px;
     font-weight: 800;
 }
@@ -88,8 +88,8 @@
 .num-circle {
     width: 100px;
     height: 100px;
-    background: var(--main-green-color);
-    background-color: #346A9F;
+    background: #90C542;
+    /* background-color: #346A9F; */
     border-radius: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
     display: flex;
@@ -97,6 +97,33 @@
     align-items: center;
     position: relative;
     margin: 0 auto
+}
+
+.num-circle::before {
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    content: "";
+    height: 128px;
+    width: 70px;
+    background: #90C542;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    left: -16px;
+}
+
+.blue {
+    background: #26ABE2
+}
+
+.blue:before {
+    background: #26ABE2;
+    right: -16px;
+    left: auto;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0
 }
 
 .num-circle h4 {
@@ -112,7 +139,7 @@
     content: "";
     height: 128px;
     width: 70px;
-    background: var(--main-green-color);
+    background: #90C542;
     display: inline-block;
     position: absolute;
     z-index: -1;
@@ -120,11 +147,11 @@
 }
 
 .blue {
-    background: var(--main-blue-color)
+    background: #26ABE2
 }
 
 .blue:before {
-    background: var(--main-blue-color);
+    background: #26ABE2;
     right: -16px;
     left: auto;
     border-bottom-right-radius: 90px;
@@ -147,6 +174,10 @@
 
 .process-inner:nth-child(even) .pro-imgbox {
     text-align: right
+}
+
+.pro-number .num-circle h4 {
+    color: white;
 }
 
 .offerings {

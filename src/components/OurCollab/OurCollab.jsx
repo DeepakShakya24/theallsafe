@@ -8,7 +8,7 @@ function OurCollab() {
     <section class="logo-sec">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 collab-heading">
             <h2 class="text-center font-weight-bold">OUR COLLABORATORS</h2>
           </div>
           <Carousel>

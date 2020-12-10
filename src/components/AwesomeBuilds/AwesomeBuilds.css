@@ -22,11 +22,16 @@
     color: rgba(52, 106, 160, 1);
 }
 
-.builds-sec {
+
+/* .builds-sec {
     margin-left: 50px;
     margin-right: 50px;
-}
+} */
 
 .build-heading h2 {
     letter-spacing: 6px;
+    text-shadow: 0 2px 8px rgba(38, 171, 226, .9);
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
 }
