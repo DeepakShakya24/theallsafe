@@ -11,7 +11,7 @@ import p7 from "./product/p7.JPG";
 import p8 from "./product/p8.JPG";
 import p9 from "./product/p9.JPG";
 import fire from "./product/homepage-hot-offers.svg";
-import sideimg1 from "./product/add/1.JPG";
+//import sideimg1 from "./product/add/1.JPG";
 import sideimg2 from "./product/add/2.JPG";
 import sideimg3 from "./product/add/3.JPG";
 const GridSoftwareVisibility = ({ srcimg1, srcimg2, srcimg3 }) => {
