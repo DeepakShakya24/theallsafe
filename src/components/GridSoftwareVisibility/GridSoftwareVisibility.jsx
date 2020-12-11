@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Grid.css";
 import img from "./product/p_icon/washing-machine.png";
 import p1 from "./product/p1.jpg";
@@ -11,10 +11,18 @@ import p7 from "./product/p7.JPG";
 import p8 from "./product/p8.JPG";
 import p9 from "./product/p9.JPG";
 import fire from "./product/homepage-hot-offers.svg";
+import white from "./product/homepage-hot-offers white.svg";
 //import sideimg1 from "./product/add/1.JPG";
 import sideimg2 from "./product/add/2.JPG";
 import sideimg3 from "./product/add/3.JPG";
-const GridSoftwareVisibility = ({ srcimg1, srcimg2, srcimg3 }) => {
+const GridSoftwareVisibility = () => {
+  const [imgsrc, setsrc] = useState(fire);
+  const MouseOver = () => {
+    setsrc(white);
+  };
+  const MouseOut = () => {
+    setsrc(fire);
+  };
   return (
     <section class="product-sec">
       <div class="container-fluid">
@@ -922,9 +930,13 @@ const GridSoftwareVisibility = ({ srcimg1, srcimg2, srcimg3 }) => {
             </div>
           </div>
           <div class="col-md-2 pro_add">
-            <div className="img-space">
-              {/* <i className="fa fa-fire fa-3x"></i> */}
-              <img src={fire} class="img-fluid" alt="" width="25%" />
+            <div
+              className="img-space"
+              onMouseOver={MouseOver}
+              onMouseOut={MouseOut}
+            >
+              <img src={imgsrc} class="img-fluid" alt="" width="25%" />
+
               <p>Hot Offers</p>
               <div align="centre">
                 <p className="subtxt">Check out our weekly hot deals</p>
